@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Styleit
+Comment=Styleit P2P Cryptocurrency
+Comment[fr]=Styleit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Styleit, eşten eşe kriptografik sanal para birimi
+Exec=styleit-qt %u
+Terminal=false
+Type=Application
+Icon=styleit128
+MimeType=x-scheme-handler/styleit;
+Categories=Office;Finance;

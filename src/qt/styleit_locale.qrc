@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/styleit_bg.qm</file>
+        <file alias="ca">locale/styleit_ca.qm</file>
+        <file alias="cs">locale/styleit_cs.qm</file>
+        <file alias="da">locale/styleit_da.qm</file>
+        <file alias="de">locale/styleit_de.qm</file>
+        <file alias="en">locale/styleit_en.qm</file>
+        <file alias="es">locale/styleit_es.qm</file>
+        <file alias="fi">locale/styleit_fi.qm</file>
+        <file alias="fr_FR">locale/styleit_fr_FR.qm</file>
+        <file alias="it">locale/styleit_it.qm</file>
+        <file alias="ja">locale/styleit_ja.qm</file>
+        <file alias="ko_KR">locale/styleit_ko_KR.qm</file>
+        <file alias="nl">locale/styleit_nl.qm</file>
+        <file alias="pl">locale/styleit_pl.qm</file>
+        <file alias="pt">locale/styleit_pt.qm</file>
+        <file alias="pt_BR">locale/styleit_pt_BR.qm</file>
+        <file alias="sk">locale/styleit_sk.qm</file>
+        <file alias="sv">locale/styleit_sv.qm</file>
+        <file alias="ro_RO">locale/styleit_ro_RO.qm</file>
+        <file alias="ru">locale/styleit_ru.qm</file>
+        <file alias="zh_CN">locale/styleit_zh_CN.qm</file>
+        <file alias="zh_TW">locale/styleit_zh_TW.qm</file>
+    </qresource>
+</RCC>
