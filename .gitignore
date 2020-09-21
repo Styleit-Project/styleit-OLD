@@ -85,7 +85,6 @@ src/qt/styleit-qt.includes
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
 styleit-qt
 Styleit-Qt.app
 styleit.creator
