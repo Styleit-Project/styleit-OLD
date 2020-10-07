@@ -5346,7 +5346,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 
 int ActiveProtocol()
 {
-   if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT) || chainActive.Tip()->nHeight > 241995) {
+   if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT) || chainActive.Tip()->nHeight > 26000) {
             return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
    }
     
