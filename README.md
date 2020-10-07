@@ -1,4 +1,4 @@
-<h2><strong>Styleit Staging Repository (Version 1.0.0)</strong></h2>
+<h2><strong>Styleit Staging Repository (Version 1.0.1)</strong></h2>
 =====================================
 
 Styleit Token is a cryptocurrency blockchain, with an embedded Proof of Stake (POS) and Masternode (MN) functions. 
