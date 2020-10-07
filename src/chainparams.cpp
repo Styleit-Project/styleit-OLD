@@ -46,13 +46,19 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x000000438ce468bba8384721f59b2bde0f772171764081d14b795b4167766ddc"));
+    (0, uint256("0x000000438ce468bba8384721f59b2bde0f772171764081d14b795b4167766ddc"))
+    (100, uint256("0x0000070f65bb6e49d5a3f23ec825b6281f25cbe6364b405003c5c7979c9250f1"))
+    (1500, uint256("0x00000ebd8fad302b738c232a5f4b5ac28df59ec7999f3902bf40ca92c44e649a"))
+    (3000, uint256("0x5faf4afb57a97b2a9200bf62f23eec03fc05952285d5b2a45ff550a938f7621f"))
+    (9000, uint256("0xab68ab7bb530fffd96949fbf563ac06f7c7f945422b42596fa571a726d17a5b7"))
+    (25000, uint256("0xecfcd755edfd88d9888c169a699ad396e5ada9a5b7a8beddfa5248c7a56415f6"))
+    ;
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1599386459, // * UNIX timestamp of last checkpoint block
-    0,          // * total number of transactions between genesis and last checkpoint
+    1602007039, // * UNIX timestamp of last checkpoint block
+    52785,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1440         // * estimated number of transactions per day after checkpoint
 };
@@ -86,7 +92,7 @@ public:
         pchMessageStart[1] = 0xe1;
         pchMessageStart[2] = 0x23;
         pchMessageStart[3] = 0xc5;
-        vAlertPubKey = ParseHex("04d1d4df7ac6e3719b0c981789d5d33e311cb32dbe21e2ddc165206e8ce4cabd9cd1781cb778be25c323e309ce71b3a8446eff0f8c282a05a86b3cb44c1e533fd8");
+        vAlertPubKey = ParseHex("042c63003ede070e5fc8811ce36d8625b555d81926fa459dabbec2514d62e0c79718038f115f5ba098948d44313b5e48db499113dc586c4df2c1681c79b5c7ed20");
         nDefaultPort = 15140;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 210000;
@@ -146,7 +152,7 @@ public:
         fHeadersFirstSyncingActive = false;
 		
         nPoolMaxTransactions = 3;
-        strSporkKey = "04ae960e7e3e53ec4441c6bf4c4a1a70e4b9438523f62f4f3eb5e40bb68f43f69e77ed6adbfe5fb00e89ad82c5ba947b37124bc91c8e7df79ea0be00a48bee8b85";
+        strSporkKey = "04f37b92460c61aba36c2aaed23405cec599a71899eae20c395db2d7a4328f758a58acbb9c3d4ae4a1c14eb802c816af782d14f5888052a3a87abce8b2bde93e24";
         strObfuscationPoolDummyAddress = "CQ4fj33mJBaxMWcxjAz9GP8pJ7vZfQRxju";
         nStartMasternodePayments = 1599566400; //Thursday, February 20, 2020 7:00:00 PM GMT +00
     }
@@ -210,7 +216,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 		
         nPoolMaxTransactions = 2;
-        strSporkKey = "04ae960e7e3e53ec4441c6bf4c4a1a70e4b9438523f62f4f3eb5e40bb68f43f69e77ed6adbfe5fb00e89ad82c5ba947b37124bc91c8e7df79ea0be00a48bee8b85";
+        strSporkKey = "04f37b92460c61aba36c2aaed23405cec599a71899eae20c395db2d7a4328f758a58acbb9c3d4ae4a1c14eb802c816af782d14f5888052a3a87abce8b2bde93e24";
         strObfuscationPoolDummyAddress = "CQ4fj33mJBaxMWcxjAz9GP8pJ7vZfQRxju";
         nStartMasternodePayments = 1599566400; //Fri, 09 Jan 2015 21:05:58 GMT
     }
